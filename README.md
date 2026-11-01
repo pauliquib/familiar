@@ -15,7 +15,7 @@ Postavička sedí na titulku okna terminálu. Baterka vedle ní je měřič obsa
 | ![Robo-kun na titulku terminálu](docs/obrazky/robokun-1.png) | ![Robo-kun s kloboukem](docs/obrazky/robokun-2.png) |
 | ![Květina](docs/obrazky/kvetina-1.png) | ![Květina s reakcí nad hlavou](docs/obrazky/kvetina-2.png) |
 | ![Květina s reakcí nad hlavou](docs/obrazky/kvetina-3.png) | ![Robo-kun Rubín s pomocníkem](docs/obrazky/rubin.png) |
-| ![Vánoční Robo-kun v klidu, padá sníh](docs/obrazky/vanoce-1.png) | ![Vánoční Robo-kun píše na klávesnici](docs/obrazky/vanoce-2.png) |
+| ![Vánoční Robo-kun v klidu, padá sníh](docs/obrazky/vanoce-klid.png) | ![Vánoční Robo-kun píše na klávesnici](docs/obrazky/vanoce-psani.png) |
 
 Skiny Robo-kun, Květina, Robo-kun Rubín a vánoční Robo-kun (`vanoce`). Robo-kun má dalších šest barevných variant (`familiar skins` vypíše všechny).
 
