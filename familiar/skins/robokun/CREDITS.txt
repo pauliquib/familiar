@@ -1,0 +1,8 @@
+Robo-kun – skin pro Pixel Familiars
+
+Grafika: vlastní dílo projektu Pixel Familiars, kreslené kódem (familiar/sprites.py).
+Licence: Creative Commons Uveďte původ 4.0 Mezinárodní (CC BY 4.0)
+         https://creativecommons.org/licenses/by/4.0/ (plné znění v LICENSES/CC-BY-4.0.txt)
+Uveďte: Pixel Familiars (Pavel Švec), https://github.com/pauliquib/familiar
+
+Skin znovu vygeneruje: python3 -m familiar.skin_export familiar/skins/robokun --variant robokun

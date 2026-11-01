@@ -1,0 +1,49 @@
+# Vygenerováno: python3 -I tools/ptacek.py (kresba kódem). Formát popisuje docs/skiny.md.
+# Vlastní dílo projektu Pixel Familiars, CC BY 4.0 (viz CREDITS.txt).
+
+[skin]
+name = "Ptáček"
+size = [32, 32]
+anchor = [16, 31]
+facing = "right"
+author = "Pixel Familiars"
+license = "CC-BY-4.0"
+
+[layers]
+body = "body.png"
+fx = "fx.png"
+face = "face.png"
+emote = "emote.png"
+drone = "drone.png"
+
+[palettes]
+base = "pal/base.gpl"
+warm = "pal/warm.gpl"
+red = "pal/red.gpl"
+cool = "pal/cool.gpl"
+faded = "pal/faded.gpl"
+
+[activity]
+idle = "idle"
+listening = "listen"
+thinking = "think"
+waiting = "wave"
+success = "hop"
+error = "stumble"
+sleeping = "sleep"
+gone = "sleep"
+walking = "walk"
+working = { default = "work" }
+
+[mood]
+klid = { palette = "base" }
+radost = { mouth = "smile", palette = "warm", emote = "heart" }
+zvedavost = { eyes = "wide", mouth = "o", palette = "base", emote = "question" }
+frustrace = { eyes = "angry", mouth = "frown", palette = "red", emote = "storm" }
+zmatek = { eyes = "dazed", mouth = "wave", palette = "cool", emote = "spiral" }
+unava = { eyes = "droopy", palette = "faded", tempo = 0.6 }
+
+[face]
+# snímky tagu, kde výraz určuje animace a nálada ho nepřepíše (true = všechny)
+keep_eyes = { idle = [6, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29], listen = [1, 2, 3, 4], think = true, wave = true, hop = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], stumble = [1, 2, 3, 4, 5, 6, 7], sleep = true, walk = true }
+keep_mouth = { idle = [17, 18, 19, 20, 21, 22, 23, 24, 25], listen = [2, 3], wave = true, hop = [1, 2, 3, 4, 5, 6, 7, 8, 9], stumble = [1, 2, 3, 4, 5], sleep = true, walk = true }

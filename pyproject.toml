@@ -1,0 +1,24 @@
+[build-system]
+# vlastní minimální backend v repu: build nepotřebuje síť ani setuptools
+requires = []
+build-backend = "familiar_build"
+backend-path = ["_build"]
+
+[project]
+name = "familiar"
+dynamic = ["version"]      # z familiar/__init__.py (__version__)
+description = "Pixelová postavička, která ukazuje, co dělá Claude Code"
+requires-python = ">=3.11"
+# kód MIT, grafika skinů CC BY 4.0 (viz LICENSE)
+license = "MIT AND CC-BY-4.0"
+license-files = ["LICENSE", "LICENSES/CC-BY-4.0.txt"]
+# PySide6-Essentials stačí (QtWidgets, QtGui, QtDBus); celé PySide6 ji obsahuje
+dependencies = ["PySide6-Essentials>=6.5", "tomlkit>=0.12"]
+
+[project.scripts]
+familiar = "familiar.cli:main"
+familiar-emit = "familiar.emit:main"
+
+[tool.uv]
+# uv by jinak znovu použil sestavený wheel, dokud se nezmění pyproject.toml
+cache-keys = [{ file = "pyproject.toml" }, { file = "LICENSE" }, { file = "_build/*.py" }, { file = "familiar/**/*" }]

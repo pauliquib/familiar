@@ -1,0 +1,7 @@
+{
+  "uuid": "familiar@pixel-familiars",
+  "name": "Familiar",
+  "description": "Posadí pixelové postavičky familiara (Claude Code) na titulek okna terminálu a hlásí familiaru aktivní okno. Instaluje ho `familiar install --gnome-rozsireni`.",
+  "shell-version": ["45", "46", "47", "48", "49"],
+  "version": 1
+}

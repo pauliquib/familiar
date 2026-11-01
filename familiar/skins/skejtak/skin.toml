@@ -1,0 +1,49 @@
+# Vygenerováno: python3 -I tools/skejtak.py (kresba kódem). Formát popisuje docs/skiny.md.
+# Vlastní dílo projektu Pixel Familiars, CC BY 4.0 (viz CREDITS.txt).
+
+[skin]
+name = "Skejťák"
+size = [32, 32]
+anchor = [16, 31]
+facing = "right"
+author = "Pixel Familiars"
+license = "CC-BY-4.0"
+
+[layers]
+body = "body.png"
+fx = "fx.png"
+face = "face.png"
+emote = "emote.png"
+drone = "drone.png"
+
+[palettes]
+base = "pal/base.gpl"
+warm = "pal/warm.gpl"
+red = "pal/red.gpl"
+cool = "pal/cool.gpl"
+faded = "pal/faded.gpl"
+
+[activity]
+idle = "idle"
+listening = "listen"
+thinking = "think"
+waiting = "wave"
+success = "kickflip"
+error = "bail"
+sleeping = "sleep"
+gone = "sleep"
+walking = "ride"
+working = { Bash = "work_bash", Edit = "work_edit", Write = "work_edit", NotebookEdit = "work_edit", Read = "work_search", Grep = "work_search", Glob = "work_search", WebSearch = "work_search", WebFetch = "work_search", ToolSearch = "work_search", default = "work_edit" }
+
+[mood]
+klid = { palette = "base" }
+radost = { mouth = "smile", palette = "warm", emote = "heart" }
+zvedavost = { eyes = "wide", mouth = "o", palette = "base", emote = "question" }
+frustrace = { eyes = "angry", mouth = "frown", palette = "red", emote = "storm" }
+zmatek = { eyes = "dazed", mouth = "wave", palette = "cool", emote = "spiral" }
+unava = { eyes = "droopy", palette = "faded", tempo = 0.6 }
+
+[face]
+# snímky tagu, kde výraz určuje animace a nálada ho nepřepíše (true = všechny)
+keep_eyes = { idle = [6], listen = [1, 2, 3, 4], think = true, wave = true, kickflip = [2, 3, 4, 5, 6, 7, 8, 9], bail = [1, 2, 3, 4, 5, 6, 7, 8], sleep = true }
+keep_mouth = { listen = [1, 2, 3, 4], wave = true, kickflip = [2, 3, 4, 5, 6, 7, 8, 9], bail = [1, 2, 3, 4, 5, 6, 7], sleep = true }

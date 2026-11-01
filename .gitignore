@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+.pytest_cache/
+# nahrávky session obsahují texty promptů
+tests/replays/
+.claude/worktrees/
+# interní poznámky z vývoje (orchestrace agentů): jen lokálně, ne do veřejného repa
+docs/orchestrace/
+docs/prompt-orchestrator.md

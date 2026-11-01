@@ -1,0 +1,9 @@
+Skejťák – skin pro Pixel Familiars
+
+Grafika: vlastní dílo projektu Pixel Familiars, kreslené kódem (tools/skejtak.py).
+Licence: Creative Commons Uveďte původ 4.0 Mezinárodní (CC BY 4.0)
+         https://creativecommons.org/licenses/by/4.0/ (plné znění v LICENSES/CC-BY-4.0.txt)
+Uveďte: Pixel Familiars (Pavel Švec), https://github.com/pauliquib/familiar
+
+Reakce nad hlavou jsou Robo-kunovy (familiar/sprites.py) přebarvené do palety skinu,
+drony subagentů jsou malá skate prkýnka. Skin znovu vygeneruje: python3 -I tools/skejtak.py

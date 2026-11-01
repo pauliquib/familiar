@@ -1,0 +1,47 @@
+# Vygenerováno: python3 -I tools/kvetina.py (kresba kódem). Formát popisuje docs/skiny.md.
+# Vlastní dílo projektu Pixel Familiars, CC BY 4.0 (viz CREDITS.txt).
+
+[skin]
+name = "Květina"
+size = [32, 32]
+anchor = [16, 31]
+author = "Pixel Familiars"
+license = "CC-BY-4.0"
+
+[layers]
+body = "body.png"
+fx = "fx.png"
+face = "face.png"
+emote = "emote.png"
+drone = "drone.png"
+
+[palettes]
+base = "pal/base.gpl"
+warm = "pal/warm.gpl"
+red = "pal/red.gpl"
+cool = "pal/cool.gpl"
+faded = "pal/faded.gpl"
+
+[activity]
+idle = "idle"
+listening = "listen"
+thinking = "think"
+waiting = "wave"
+success = "hop"
+error = "stumble"
+sleeping = "sleep"
+gone = "sleep"
+working = { default = "work" }
+
+[mood]
+klid = { palette = "base" }
+radost = { mouth = "smile", palette = "warm", emote = "heart" }
+zvedavost = { eyes = "wide", mouth = "o", palette = "base", emote = "question" }
+frustrace = { eyes = "angry", mouth = "frown", palette = "red", emote = "storm" }
+zmatek = { eyes = "dazed", mouth = "wave", palette = "cool", emote = "spiral" }
+unava = { eyes = "droopy", palette = "faded", tempo = 0.6 }
+
+[face]
+# snímky tagu, kde výraz určuje animace a nálada ho nepřepíše (true = všechny)
+keep_eyes = { idle = [13], listen = true, think = true, wave = true, hop = true, stumble = true, sleep = true }
+keep_mouth = { listen = true, wave = true, hop = true, stumble = true, sleep = true }

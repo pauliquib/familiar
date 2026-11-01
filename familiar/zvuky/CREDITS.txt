@@ -1,0 +1,7 @@
+Zvuky upozornění – Pixel Familiars
+
+Vlastní dílo projektu Pixel Familiars, syntetizované kódem (tools/zvuky.py).
+Licence: Creative Commons Zero v1.0 Universal (CC0 1.0), public domain
+         https://creativecommons.org/publicdomain/zero/1.0/
+
+Sady: pipani (8-bit čtverec), jemne (zvonky). Znovu vygeneruje: python3 -I tools/zvuky.py
